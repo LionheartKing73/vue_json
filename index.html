@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vue Component</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <style type="text/css">
+          .tree-view-item-value-number {
+            color: green;
+          }
+          .tree-view-item-value-string {
+            color: blue;
+          }
+          .tree-view-item-value-boolean {
+            color: violet;
+          }
+        </style>
+        <br><br>
+        <div class="row">
+          <div class="row">
+            <center><button id='start'>Start</button></center>
+          </div>
+          <div class="row">
+            <center><h3>* Select area, then click button:</h3></center>
+          </div>
+          <div class="row" style="border-bottom: 1px solid grey">
+            <center>
+              <button id='change_background'>Change Background</button>
+              <button id='change_fontsize'>Change Font Size</button>
+              <button id='change_fontfamily'>Change Font Family</button>
+            </center>
+            <br><br>
+          </div>
+
+        </div>
+        <br><br>
+        
+        <div id="container" class="container">
+              
+            <div class="row" id="main_row" :style="getMainStyle(sampleJSON)">
+              <center>
+                <Elements :data="sampleJSON"></Elements>
+              </center>                
+            </div>
+
+            
+
+          
+        </style>
+        </div>
+        
+         
+        <script type="text/javascript" src="/build/build.js"></script>
+    </body>
+</html>

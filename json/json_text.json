@@ -1,0 +1,53 @@
+ { 
+    "type": "text",
+    "id": "textKoRpo0y7",
+    "action": {
+      "click": []
+    },
+    "body": [],
+    "styles": {
+      "position": "absolute",
+      "display": "block",
+      "color": "#fff",
+      "opacity": "1",
+      "border-radius": "6px 6px 6px 6px",
+      "transform": "rotate(0deg)",
+      "border": "0px solid #4690f7",
+      "background-color": "rgba(0,0,0,0)",
+      "height": "112px",
+      "width": "295px",
+      "padding": "10px",
+      "text-align": "center",
+      "letter-spacing": "0px",
+      "font-size": "31px",
+      "font-family": "Aileron Thin",
+      "font-weight": "300",
+      "text-decoration": "none",
+      "box-shadow": "0px 0px 0px 0px #000000",
+      "text-transform": "initial",
+      "font-style": "normal",
+      "top": "237px",
+      "left": "51px",
+      "z-index": "2000",
+      "text-shadow": "rgba(0,0,0,0.2) 2px 2px 0px",
+      "line-height": "2.7em"
+    },
+    "text": "Ompa Cool story text goes Here",
+    "inner_elements": [
+      {
+        "type": "span",
+        "styles": {
+          "background-color": "rgb(248, 187, 208)",
+          "color": "#eaeaea"
+        },
+        "text": "Ompa" 
+      },
+      {
+        "type": "br"
+      },
+      {
+        "type": "text",
+        "text": "Cool story" 
+      }
+    ]
+ }
